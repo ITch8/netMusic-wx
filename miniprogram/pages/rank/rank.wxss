@@ -1,1 +1,6 @@
-/* pages/rank/rank.wxss */
+.cu-list.menu-avatar>.cu-item{
+  height: 240rpx;
+}
+.cu-list.menu-avatar>.cu-item .content{
+  left: 260rpx;
+}

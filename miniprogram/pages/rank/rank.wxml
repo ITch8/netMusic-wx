@@ -1,2 +1,115 @@
-<!--pages/rank/rank.wxml-->
-<text>pages/rank/rank.wxml</text>
+<cu-custom bgColor="bg-gradual-blue">
+  <view slot="content">排行榜</view>
+</cu-custom>
+<view class="cu-list menu-avatar">
+  <view class="cu-item ">
+    <image class="cu-avatar llg" src='../../images/temp/b1.jpg'></image>
+    <view class="content">
+      <view class="text-black text-lg">巅峰榜·流行指数</view>
+      <view class="text-lr margin-top-sm">
+        <block wx:for="3" wx:key>
+          <view>
+            <text class='text-green margin-right-sm'>1</text>
+            <text>麻雀 - 李荣浩</text>
+          </view>
+          <view>
+            <text class='text-green margin-right-sm'>2</text>
+            <text>陪你去流浪 - 薛之谦</text>
+          </view>
+          <view>
+            <text class='text-green margin-right-sm'>3</text>
+            <text>火红的萨日朗 - 要不要买菜</text>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item">
+    <image class="cu-avatar llg" src='../../images/temp/b1.jpg'></image>
+    <view class="content">
+      <view class="text-black text-lg">巅峰榜·流行指数</view>
+      <view class="text-lr margin-top-sm">
+        <block wx:for="3" wx:key>
+          <view>
+            <text class='text-green margin-right-sm'>1</text>
+            <text>麻雀 - 李荣浩</text>
+          </view>
+          <view>
+            <text class='text-green margin-right-sm'>2</text>
+            <text>陪你去流浪 - 薛之谦</text>
+          </view>
+          <view>
+            <text class='text-green margin-right-sm'>3</text>
+            <text>火红的萨日朗 - 要不要买菜</text>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item">
+    <image class="cu-avatar llg" src='../../images/temp/b1.jpg'></image>
+    <view class="content">
+      <view class="text-black text-lg">巅峰榜·流行指数</view>
+      <view class="text-lr margin-top-sm">
+        <block wx:for="3" wx:key>
+          <view>
+            <text class='text-green margin-right-sm'>1</text>
+            <text>麻雀 - 李荣浩</text>
+          </view>
+          <view>
+            <text class='text-green margin-right-sm'>2</text>
+            <text>陪你去流浪 - 薛之谦</text>
+          </view>
+          <view>
+            <text class='text-green margin-right-sm'>3</text>
+            <text>火红的萨日朗 - 要不要买菜</text>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item">
+    <image class="cu-avatar llg" src='../../images/temp/b1.jpg'></image>
+    <view class="content">
+      <view class="text-black text-lg">巅峰榜·流行指数</view>
+      <view class="text-lr margin-top-sm">
+        <block wx:for="3" wx:key>
+          <view>
+            <text class='text-green margin-right-sm'>1</text>
+            <text>麻雀 - 李荣浩</text>
+          </view>
+          <view>
+            <text class='text-green margin-right-sm'>2</text>
+            <text>陪你去流浪 - 薛之谦</text>
+          </view>
+          <view>
+            <text class='text-green margin-right-sm'>3</text>
+            <text>火红的萨日朗 - 要不要买菜</text>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+  <view class="cu-item">
+    <image class="cu-avatar llg" src='../../images/temp/b1.jpg'></image>
+    <view class="content">
+      <view class="text-black text-lg">巅峰榜·流行指数</view>
+      <view class="text-lr margin-top-sm">
+        <block wx:for="3" wx:key>
+          <view>
+            <text class='text-green margin-right-sm'>1</text>
+            <text>麻雀 - 李荣浩</text>
+          </view>
+          <view>
+            <text class='text-green margin-right-sm'>2</text>
+            <text>陪你去流浪 - 薛之谦</text>
+          </view>
+          <view>
+            <text class='text-green margin-right-sm'>3</text>
+            <text>火红的萨日朗 - 要不要买菜</text>
+          </view>
+        </block>
+      </view>
+    </view>
+  </view>
+</view>
