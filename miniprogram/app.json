@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/music/music",
+    "pages/singer/singer",
+    "pages/rank/rank",
+    "pages/discovery/discovery"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#31c27c",
+    "navigationBarTitleText": "netMusic",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "tabBar":{
+    "color":"#474747",
+    "selectedColor":"#31c27c",
+    "list":[{
+      "pagePath":"pages/music/music",
+      "text":"音乐",
+      "iconPath":"images/tabbar/music.png",
+      "selectedIconPath":"images/tabbar/music-selected.png"
+    },{
+      "pagePath": "pages/singer/singer",
+      "text": "歌手",
+      "iconPath": "images/tabbar/singer.png",
+      "selectedIconPath": "images/tabbar/singer-selected.png"
+    },
+    {
+      "pagePath": "pages/rank/rank",
+      "text": "排行榜",
+      "iconPath": "images/tabbar/rank.png",
+      "selectedIconPath": "images/tabbar/rank-selected.png"
+    },{
+      "pagePath": "pages/discovery/discovery",
+      "text": "发现",
+      "iconPath": "images/tabbar/discovery.png",
+      "selectedIconPath": "images/tabbar/discovery-selected.png"
+    }]
+  }
+}

@@ -1,0 +1,17 @@
+@import '../../colorui/main.wxss';
+
+.image{
+  max-width: 200rpx;
+  max-height: 200rpx;
+}
+.flex-wrap{
+  justify-content:space-around;
+}
+.block-img{
+  max-width: 200rpx;
+}
+.name{
+  white-space: normal;
+  font-weight: 400;
+  min-height: 60rpx;
+}

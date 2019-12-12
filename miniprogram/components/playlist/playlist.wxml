@@ -1,0 +1,16 @@
+<view class="cu-bar bg-white margin-top-xs solid-bottom">
+  <view class="action">
+    <text class="icon-title text-blue"></text>{{title}}
+  </view>
+</view>
+<view class="bg-white">
+  <view class="flex flex-wrap">
+    <block wx:for="{{list}}" wx:key>
+      <view class='block-img'>
+        <image class='image padding-top-sm' src='{{item.img}}' mode='aspectFit'></image>
+        <view class='name text-black text-sm'>{{item.name}}</view>
+        <view class='playnum text-xs text-grey'>播放量：{{item.playnum}}万 </view>
+      </view>
+    </block>
+  </view>
+</view>

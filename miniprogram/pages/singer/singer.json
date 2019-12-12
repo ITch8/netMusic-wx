@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "singer-list":"../../components/singerlist/singerlist"
+  }
+}

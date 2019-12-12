@@ -1,0 +1,7 @@
+<view class='margin'>
+  <block wx:for="{{singerlist}}" wx:key>
+  <view class='margin-top'>
+    <image class='cu-avatar round lg' src='{{item.url}}'></image><text class='text-black margin'>{{item.name}}</text><text>（{{item.contry || '中国'}})</text>
+  </view>
+  </block>
+</view>
